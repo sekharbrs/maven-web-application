@@ -16,6 +16,15 @@
 		<name>Mithun Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
+	<repositories>
+	 <repository>
+              <id>nexus</id>
+              <name>Mithun Technologies Releases Nexus Repository</name>
+              <url>http://192.168.43.71:8081/repository/maven-proxy/</url>
+         </repository>
+	</repositories>		
+
+
 
 	<properties>
 		<!-- versions -->
